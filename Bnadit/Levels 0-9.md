@@ -1,9 +1,4 @@
 # OverTheWire Bandit Writeup (Levels 0–9)
-
-This writeup covers the first part of the OverTheWire Bandit wargame (Levels 0–9). The goal is educational: instead of only listing commands, each step explains *why* a command is used and what Linux concept it teaches.
-
-All passwords are intentionally omitted. Only the method and reasoning are shown so you can learn and reproduce the results yourself.
-
 ---
 
 ## Level 0 → Level 1
