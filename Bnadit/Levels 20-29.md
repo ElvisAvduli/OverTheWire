@@ -158,7 +158,7 @@ You are given access to a local Git repository over SSH. Clone it into a tempora
 ```bash
 mkdir /tmp/repo
 cd /tmp/repo
-git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
 cd repo
 ```
 
