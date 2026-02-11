@@ -1,4 +1,4 @@
-# OverTheWire Bandit Writeup — Levels 20 → 29 
+# OverTheWire Bandit Writeup (Levels 20 - 29) 
 
 ---
 
