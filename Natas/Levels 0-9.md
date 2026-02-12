@@ -38,6 +38,7 @@ We need to find hidden files that are not explicitly linked.
 
 1.  Inspect the source code. You will see an image tag pointing to `files/pixel.png`.
 <img width="900" height="434" alt="image" src="https://github.com/user-attachments/assets/95c095c7-cb35-44e4-95c2-d1e63a0a7a26" />
+
 3.  This indicates a directory named `/files/` exists. Add `/files/` to the end of the URL.
 4.  Navigate to `http://natas2.natas.labs.overthewire.org/files/` in your browser.
 5.  Because directory listing is enabled (a server misconfiguration), you can see all files in that folder.
@@ -87,8 +88,10 @@ Authentication status is often tracked using cookies. If the server relies solel
 
 1.  Check the HTTP headers or cookies. Use the command `curl -I -u natas5:<password> "http://natas5.natas.labs.overthewire.org/"` You will see a `Set-Cookie` header where `loggedin=0`.
 <img width="759" height="206" alt="image" src="https://github.com/user-attachments/assets/c804e30b-ab02-4cb8-bf23-c7f0e0942f7d" />
+
 3.  Open Developer Tools and go to the **Application** tab, then select **Cookies**.
 <img width="900" height="429" alt="image" src="https://github.com/user-attachments/assets/0915362b-6a4d-4628-a93d-5a444ef7b698" />
+
 5.  Double-click the value for `loggedin` and change it from `0` to `1`.
 6.  Refresh the page to get the password for Level 6.
 
@@ -189,6 +192,7 @@ We can use the `;` character to terminate the `grep` command and start a new one
 
 1.  We need to find the password file for Level 10.
 <img width="900" height="561" alt="image" src="https://github.com/user-attachments/assets/6dc45427-f619-4d15-85ab-e1381bb915f9" />
+
 3.  Inject a command using `;` followed by `cat` to read the file.
 4.  Search query:
     ```bash
