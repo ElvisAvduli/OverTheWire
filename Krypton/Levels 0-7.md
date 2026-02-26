@@ -309,17 +309,3 @@ Decrypting `krypton7` with the recovered keystream yields: `LFSRISNOTRANDOM`
 🎉 **Congratulations on beating Krypton!**
 
 ---
-
-## What Krypton Demonstrates
-
-| Level | Cipher | Attack |
-|-------|--------|--------|
-| 0 | Base64 | Not encryption — trivially decoded |
-| 1 | Caesar | Brute force (only 25 shifts) |
-| 2 | Caesar | Known plaintext |
-| 3 | Monoalphabetic substitution | Frequency analysis |
-| 4 | Vigenère (known key length) | Per-position frequency analysis |
-| 5 | Vigenère (unknown key length) | Kasiski / Index of Coincidence |
-| 6 | Stream cipher | Weak RNG / keystream reuse |
-
-Modern cryptography avoids these weaknesses through large key sizes, cryptographically secure PRNGs, and strong mathematical foundations (AES, ChaCha20, etc.).
