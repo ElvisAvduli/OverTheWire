@@ -11,6 +11,8 @@ Same as Level 9 — the `needle` parameter is passed directly to `grep`. Since `
 ```
 makes grep search that file in addition to `dictionary.txt`, and prints its contents.
 
+<img width="900" height="664" alt="image" src="https://github.com/user-attachments/assets/40b302ea-2fcc-4306-a496-524356de092c" />
+
 ---
 
 ## Level 11 → 12
